@@ -1,0 +1,9 @@
+{
+  "name": "universal-bunyan",
+  "version": "0.9.0",
+  "description": "An universal JSON logging library based on bunyan with easy leveling feature",
+  "main": "index.js",
+  "repository": "https://github.com/weseek/universal-bunyan.git",
+  "author": "Yuki Takei <yuki@weseek.co.jp>",
+  "license": "MIT"
+}
