@@ -3,7 +3,9 @@
   "version": "0.9.0",
   "description": "An universal JSON logging library based on bunyan with easy leveling feature",
   "main": "lib/index.js",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "repository": "https://github.com/weseek/universal-bunyan.git",
   "author": "Yuki Takei <yuki@weseek.co.jp>",
   "license": "MIT",
@@ -11,7 +13,8 @@
     "build": "tsc"
   },
   "dependencies": {
-    "bunyan-format": "^0.2.1"
+    "bunyan-format": "^0.2.1",
+    "minimatch": "^3.0.4"
   },
   "devDependencies": {
     "@browser-bunyan/console-formatted-stream": "^1.6.2",
