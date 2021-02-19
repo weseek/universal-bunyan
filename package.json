@@ -7,7 +7,7 @@
   "author": "Yuki Takei <yuki@weseek.co.jp>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc --project tsconfig.json"
+    "build": "tsc"
   },
   "devDependencies": {
     "@browser-bunyan/console-formatted-stream": "^1.6.2",
