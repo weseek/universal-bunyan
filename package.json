@@ -5,5 +5,29 @@
   "main": "index.js",
   "repository": "https://github.com/weseek/universal-bunyan.git",
   "author": "Yuki Takei <yuki@weseek.co.jp>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "devDependencies": {
+    "@browser-bunyan/console-formatted-stream": "^1.6.2",
+    "@types/bunyan": "^1.8.6",
+    "@types/bunyan-format": "^0.2.3",
+    "@types/minimatch": "^3.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "browser-bunyan": "^1.6.3",
+    "bunyan": "^1.8.15",
+    "bunyan-format": "^0.2.1",
+    "eslint": "^7.20.0",
+    "eslint-config-weseek": "^1.0.8",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.22.1",
+    "typescript": "^4.1.5"
+  },
+  "peerDependencies": {
+    "@browser-bunyan/console-formatted-stream": "^1.6.2",
+    "browser-bunyan": "^1.6.3",
+    "bunyan": "^1.8.15"
+  }
 }
