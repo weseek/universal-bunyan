@@ -73,6 +73,7 @@ export const createLogger = (opts: UniversalLoggerOptions): Logger => {
       const config = Object.assign(opts.config ?? {}, configFromEnv);
       opts.level = determineLogLevel(config, ns);
     }
+    delete opts.config;
     loggers[ns] = createLoggerFixed(opts as any) as unknown as Logger;
   }
 
