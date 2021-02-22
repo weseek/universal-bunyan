@@ -1,6 +1,6 @@
 {
   "name": "universal-bunyan",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "An universal JSON logging library based on bunyan with easy leveling feature",
   "main": "lib/index.js",
   "files": [

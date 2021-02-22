@@ -78,3 +78,7 @@ export const createLogger = (opts: UniversalLoggerOptions): Logger => {
 
   return loggers[ns];
 };
+
+
+export type { UniversalBunyanConfig } from './interfaces/config';
+export type { UniversalLoggerOptions } from './interfaces/options';
